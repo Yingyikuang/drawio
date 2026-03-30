@@ -1,11 +1,20 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.6.6">
   <diagram name="第 1 页" id="aoptJRQ9Ce0QHUCdfbs0">
-    <mxGraphModel dx="558" dy="1024" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1332" dy="1424" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DGE-9BfRXqMMDX7oxK3s-14" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" value="Horizontal Container" vertex="1">
-          <mxGeometry height="541" width="481" x="89" y="-176" as="geometry" />
+        <mxCell id="DGE-9BfRXqMMDX7oxK3s-32" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" value="Kissena Bakery - Revenue Cycle (Order-to-Cash)" vertex="1">
+          <mxGeometry height="511" width="853" x="-11" y="-462" as="geometry" />
+        </mxCell>
+        <mxCell id="DGE-9BfRXqMMDX7oxK3s-33" parent="DGE-9BfRXqMMDX7oxK3s-32" style="swimlane;startSize=20;horizontal=0;html=1;" value="Sales Department" vertex="1">
+          <mxGeometry height="153" width="853" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DGE-9BfRXqMMDX7oxK3s-34" parent="DGE-9BfRXqMMDX7oxK3s-32" style="swimlane;startSize=20;horizontal=0;html=1;" value="Warehouse Department" vertex="1">
+          <mxGeometry height="159" width="853" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="DGE-9BfRXqMMDX7oxK3s-35" parent="DGE-9BfRXqMMDX7oxK3s-32" style="swimlane;startSize=20;horizontal=0;html=1;" value="Billing / Accounts Receivable" vertex="1">
+          <mxGeometry height="179" width="853" y="332" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
