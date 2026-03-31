@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.6.6" pages="2">
   <diagram name="Page 1" id="aoptJRQ9Ce0QHUCdfbs0">
-    <mxGraphModel dx="607" dy="1617" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="773" dy="1840" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,7 +53,7 @@
         <mxCell id="DGE-9BfRXqMMDX7oxK3s-54" parent="DGE-9BfRXqMMDX7oxK3s-33" style="rhombus;whiteSpace=wrap;html=1;" value="Credit Check Approved" vertex="1">
           <mxGeometry height="101" width="113" x="523" y="7" as="geometry" />
         </mxCell>
-        <mxCell id="DGE-9BfRXqMMDX7oxK3s-58" parent="DGE-9BfRXqMMDX7oxK3s-33" style="html=1;dashed=0;whiteSpace=wrap;" value="Order Rejected - Customer Notified" vertex="1">
+        <mxCell id="DGE-9BfRXqMMDX7oxK3s-58" parent="DGE-9BfRXqMMDX7oxK3s-33" style="html=1;dashed=1;whiteSpace=wrap;dashPattern=8 8;" value="Order Rejected - Customer Notified" vertex="1">
           <mxGeometry height="53" width="116" x="523" y="167" as="geometry" />
         </mxCell>
         <mxCell id="DGE-9BfRXqMMDX7oxK3s-61" parent="DGE-9BfRXqMMDX7oxK3s-33" style="html=1;dashed=0;whiteSpace=wrap;" value="Sales Order Authorized &amp;amp; Released to Warehouse" vertex="1">
@@ -90,7 +90,7 @@
         <mxCell id="LPl4P7QcIlxSXZShiNMl-3" parent="DGE-9BfRXqMMDX7oxK3s-34" style="rhombus;whiteSpace=wrap;html=1;" value="Inventory Available?" vertex="1">
           <mxGeometry height="116" width="164" x="513" y="36" as="geometry" />
         </mxCell>
-        <mxCell id="LPl4P7QcIlxSXZShiNMl-7" parent="DGE-9BfRXqMMDX7oxK3s-34" style="rounded=0;whiteSpace=wrap;html=1;" value="Escalate to Manager - Back-Order or Cancel" vertex="1">
+        <mxCell id="LPl4P7QcIlxSXZShiNMl-7" parent="DGE-9BfRXqMMDX7oxK3s-34" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" value="Escalate to Manager - Back-Order or Cancel" vertex="1">
           <mxGeometry height="72" width="145.5" x="522.5" y="241" as="geometry" />
         </mxCell>
         <mxCell id="LPl4P7QcIlxSXZShiNMl-20" edge="1" parent="DGE-9BfRXqMMDX7oxK3s-34" source="LPl4P7QcIlxSXZShiNMl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="LPl4P7QcIlxSXZShiNMl-16">
