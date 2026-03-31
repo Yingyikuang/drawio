@@ -129,19 +129,48 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="uOb3bGmi80Xez4RcOuFw-1" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" value="Kissena Bakery - Revenue Cycle (Order-to-Cash)" vertex="1">
-          <mxGeometry height="660" width="480" x="380" y="10" as="geometry" />
+          <mxGeometry height="660" width="750" x="190" y="20" as="geometry" />
         </mxCell>
         <mxCell id="uOb3bGmi80Xez4RcOuFw-2" parent="uOb3bGmi80Xez4RcOuFw-1" style="swimlane;startSize=20;horizontal=0;html=1;" value="Sales Department" vertex="1">
-          <mxGeometry height="210" width="480" y="20" as="geometry" />
+          <mxGeometry height="210" width="750" y="20" as="geometry" />
         </mxCell>
         <mxCell id="uOb3bGmi80Xez4RcOuFw-3" parent="uOb3bGmi80Xez4RcOuFw-1" style="swimlane;startSize=20;horizontal=0;html=1;" value="Warehouse Department" vertex="1">
-          <mxGeometry height="220" width="480" y="230" as="geometry" />
+          <mxGeometry height="220" width="750" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="lewQ3L_u8u5aLtwCOC0L-1" parent="uOb3bGmi80Xez4RcOuFw-3" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=offPageConnector;rounded=0;size=0.5;" value="→ Continued Page 2" vertex="1">
-          <mxGeometry height="60" width="60" x="50" y="10" as="geometry" />
+        <mxCell id="ycbzSlJUGeezXMAxCOMI-3" edge="1" parent="uOb3bGmi80Xez4RcOuFw-3" source="lewQ3L_u8u5aLtwCOC0L-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fexoid-aT0FHoWeiMpPJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lewQ3L_u8u5aLtwCOC0L-1" parent="uOb3bGmi80Xez4RcOuFw-3" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=offPageConnector;rounded=0;size=0.6666666666666666;" value="→ Continued Page 2" vertex="1">
+          <mxGeometry height="60" width="80" x="50" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Fexoid-aT0FHoWeiMpPJ-1" parent="uOb3bGmi80Xez4RcOuFw-3" style="rounded=0;whiteSpace=wrap;html=1;" value="Goods Dispatched to Customer" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ycbzSlJUGeezXMAxCOMI-2" edge="1" parent="uOb3bGmi80Xez4RcOuFw-1" source="Fexoid-aT0FHoWeiMpPJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ycbzSlJUGeezXMAxCOMI-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uOb3bGmi80Xez4RcOuFw-4" parent="uOb3bGmi80Xez4RcOuFw-1" style="swimlane;startSize=20;horizontal=0;html=1;" value="Billing / Accounts Receivable" vertex="1">
-          <mxGeometry height="210" width="480" y="450" as="geometry" />
+          <mxGeometry height="210" width="750" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="ycbzSlJUGeezXMAxCOMI-7" edge="1" parent="uOb3bGmi80Xez4RcOuFw-4" source="ycbzSlJUGeezXMAxCOMI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ycbzSlJUGeezXMAxCOMI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ycbzSlJUGeezXMAxCOMI-1" parent="uOb3bGmi80Xez4RcOuFw-4" style="rounded=0;whiteSpace=wrap;html=1;" value="Dispatch Confirmation Received" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ycbzSlJUGeezXMAxCOMI-9" edge="1" parent="uOb3bGmi80Xez4RcOuFw-4" source="ycbzSlJUGeezXMAxCOMI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ycbzSlJUGeezXMAxCOMI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ycbzSlJUGeezXMAxCOMI-10" connectable="0" parent="ycbzSlJUGeezXMAxCOMI-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Customer Remits Payment" vertex="1">
+          <mxGeometry relative="1" x="-0.3057" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ycbzSlJUGeezXMAxCOMI-4" parent="uOb3bGmi80Xez4RcOuFw-4" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Invoice Generated &amp;amp; Sent to Customer" vertex="1">
+          <mxGeometry height="70" width="110" x="210" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ycbzSlJUGeezXMAxCOMI-8" parent="uOb3bGmi80Xez4RcOuFw-4" style="rounded=0;whiteSpace=wrap;html=1;" value="Payment Received from Customer" vertex="1">
+          <mxGeometry height="65" width="130" x="540" y="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
