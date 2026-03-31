@@ -128,6 +128,21 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uOb3bGmi80Xez4RcOuFw-1" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" value="Kissena Bakery - Revenue Cycle (Order-to-Cash)" vertex="1">
+          <mxGeometry height="660" width="480" x="380" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="uOb3bGmi80Xez4RcOuFw-2" parent="uOb3bGmi80Xez4RcOuFw-1" style="swimlane;startSize=20;horizontal=0;html=1;" value="Sales Department" vertex="1">
+          <mxGeometry height="210" width="480" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uOb3bGmi80Xez4RcOuFw-3" parent="uOb3bGmi80Xez4RcOuFw-1" style="swimlane;startSize=20;horizontal=0;html=1;" value="Warehouse Department" vertex="1">
+          <mxGeometry height="220" width="480" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="lewQ3L_u8u5aLtwCOC0L-1" parent="uOb3bGmi80Xez4RcOuFw-3" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=offPageConnector;rounded=0;size=0.5;" value="→ Continued Page 2" vertex="1">
+          <mxGeometry height="60" width="60" x="50" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="uOb3bGmi80Xez4RcOuFw-4" parent="uOb3bGmi80Xez4RcOuFw-1" style="swimlane;startSize=20;horizontal=0;html=1;" value="Billing / Accounts Receivable" vertex="1">
+          <mxGeometry height="210" width="480" y="450" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
